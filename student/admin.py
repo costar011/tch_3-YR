@@ -3,5 +3,5 @@ from . import models
 
 
 @admin.register(models.StudentModel)
-class StuAdmin(admin.ModelAdmin):
+class StudentAdmin(admin.ModelAdmin):
     pass
